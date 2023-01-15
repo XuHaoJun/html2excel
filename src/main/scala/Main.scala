@@ -76,7 +76,6 @@ object Main {
       case "strong" | "b" =>
         val font = new XSSFFont()
         font.setBold(true)
-
         val env1: RichTextStyle = env0.cloneByFont(font)
         env1
 
